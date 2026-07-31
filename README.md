@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
-<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.jpg" style="shape-outside: url(/tinyavatar.jpg); shape-margin: 1em; float: left; border-radius: 50%; max-width: 100%; outline: solid white 1px;">
+<img alt="A kitten running from two creepers on a bright grass field" src="/tinyavatar.jpg" style="shape-outside: url(/tinyavatar.jpg); shape-margin: 1em; float: left; border-radius: 50%; max-width: 100%; outline: solid white 1px;">
 Hi there, this is my website :-).
 
 I like embedded/retro/experimental systems and ways to work around its limitations. I also like distributed and shared computing.
