@@ -2,7 +2,7 @@
 
 <style>
   a {
-  display:block;
+  display:inline flow-root;
   }
 </style>
 <p>
