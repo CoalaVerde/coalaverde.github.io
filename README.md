@@ -1,15 +1,14 @@
 # coalaverde.github.io
 
-<p align="center">
-<a href="https://codeberg.org/Kurt.Cobain" target="_blank">
-  <img src="https://img.shields.io/badge/Codeberg-Kurt.Cobain-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
-  &nbsp;
-  &nbsp;
-  ✹
-  &nbsp;
-  &nbsp;
-<a href="https://github.com/CoalaVerde" target="_blank">
-  <img src="https://img.shields.io/badge/Github-CoalaVerde-Purple?style=social&logo=github" alt="GitHub - CoalaVerde"></a>
+<style>
+  a {
+  display:block;
+  }
+</style>
+<p>
+<a float="left" href="https://codeberg.org/Kurt.Cobain" target="_blank">
+  <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
+<a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
 
 Hi there, this is my website :-)
