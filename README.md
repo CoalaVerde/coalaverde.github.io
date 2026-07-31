@@ -10,9 +10,12 @@
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
-
-Hi there, this is my website :-)
-
+<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.jpg" style="shape-outside: url(/avatar.jpg); shape-margin: 1em; float: left; border-radius: 50%; max-width: 100%; outline: white 1px;">
+Hi there, this is my website :-).
+I like embedded/retro/experimental systems and ways to work around its limitations. I also like distributed and shared computing.
+This is my first time using Jekyll and Github Pages, thus this is right now just a placeholder and I will improve it later.
+I speak English (B1/B2) and Spanish (Native).
+Silence is the best thing you can gift to someone.
 ## Projects
 <li><a href="https://github.com/CoalaVerde/Marble-Appimage" target="_blank">
   <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-blue?style=plastic&link=https%3A%2F%2Fgithub.com%2FCoalaVerde%2FMarble-Appimage"></a>
