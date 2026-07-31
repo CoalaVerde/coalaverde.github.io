@@ -17,13 +17,15 @@ I like embedded/retro/experimental systems and ways to work around its limitatio
 
 This is my first time using Jekyll and Github Pages, thus this is right now just a placeholder and I will improve it later.
 
-I speak English (B1/B2) and Spanish (Native).
-Silence is the best thing you can gift to someone.
+I speak _English_ <sub>(B1/B2)</sub> and _Spanish_ <sub>(Native)</sub>.
+Silence is the best gift you can give.
+
 ## Projects
 <li><a href="https://github.com/CoalaVerde/Marble-Appimage" target="_blank">
   <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-blue?style=plastic&link=https%3A%2F%2Fgithub.com%2FCoalaVerde%2FMarble-Appimage"></a>
 </li>
-<ul>Continuous Github Actions: Scheduled Appimage builds for the Marble browser</ul>
+<ul><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</ul>
 <img alt="Coming Soon" src="https://img.shields.io/badge/Coming-Soon-purple?style=for-the-badge&logo=Skeleton">
 <hr>
-<p align="right"><a href="https://github.com/CoalaVerde/coalaverde.github.io"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CoalaVerde/coalaverde.github.io?logo=github"></a></p>
+<p>© • 2026
+  <a align="right" float="right" href="https://github.com/CoalaVerde/coalaverde.github.io"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CoalaVerde/coalaverde.github.io?logo=github"></a></p>
