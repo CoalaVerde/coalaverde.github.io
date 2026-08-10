@@ -32,7 +32,7 @@ dfn::after {
 	white-space: pre-wrap;
 }
 dfn::before {
-/*  content: '';
+  /*content: '';*/
   display: block;
   position: absolute;
   top: 12px; left: 20px;
@@ -41,26 +41,47 @@ dfn::before {
   border: solid transparent 5px;
   border-bottom-color: rgba(0,0,0,0.8);
   transition: opacity 250ms, top 250ms;
-}*/
+}
 dfn:hover {z-index: 2;} /* Keeps the info boxes on top of other elements */
 dfn:hover::after,
 dfn:hover::before {opacity: 1;}
 dfn:hover::after {top: 30px;}
 dfn:hover::before {top: 20px;}
+
+button {
+	color:white;
+  	border:1px solid #5d910b;
+  	background:linear-gradient(#93bd20, #659e10);
+  	border-radius:2px;
+  	box-shadow:inset 0px 1px 0px rgba(255,255,255,0.3),0px 3px 7px rgba(0,0,0,0.7);
+  	background-color:#93bd20;
+  	padding:10px 12px;
+  	margin-top:6px;
+  	line-height:14px;
+  	font-size:14px;
+  	display:inline-block;
+	text-align:center
+}
+button:hover {
+  background:linear-gradient(#749619, #527f0e);
+  background-color:#659e10;
+  border:1px solid #527f0e;
+  box-shadow:inset 0px 1px 1px rgba(0,0,0,0.2),0px 1px 0px transparent
+}
 </style>
 <p>
 <a float="left" href="https://codeberg.org/Kurt.Cobain" target="_blank">
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
-<img alt="A kitten running from two creepers on a bright grass field" src="/tinyavatar.jpg" style="shape-outside: circle(); shape-margin: 1em; margin-right: 1em ; float: left; border-radius: 50%; max-width: 50%; outline: dotted white 1px;">
+<img alt="A kitten running from two creepers on a bright grass field" src="/tinyavatar.jpg" style="shape-outside: circle(); shape-margin: 1em; margin-right: 1em ; float: left; border-radius: 50%; max-width: 50%; outline: dashed white 2px; padding: 2px">
 Hi there, this is my website :-).
 
 I like embedded/retro/experimental systems and ways to work around its limitations. I also like <dfn data-info="See for example Plan 9 from Bell Labs"><a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed</a></dfn> and <dfn data-info="See for example the SDF pubnix and tildeverse.org"><a href="https://en.wikipedia.org/wiki/Shell_account">shared computing</a></dfn>.
 
 This is my first time using Jekyll and Github Pages, thus this is right now just a placeholder and I will improve it later.
 
-I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag-us.svg" width="2%"> <sup>(B1/B2)</sup> and _Spanish_ <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag-es.svg" width="2%"> <sup>(Native)</sup>. Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg" width="2%"> and learning _Python_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" width="2%">
+I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag-us.svg" width="20px"> <sup>(B1/B2)</sup> and _Spanish_ <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag-es.svg" width="20px"> <sup>(Native)</sup>. Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg" width="20px"> and learning _Python_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" width="20px">
 
 ## Projects
 <li><a href="https://github.com/CoalaVerde/Marble-Appimage" target="_blank">
@@ -68,6 +89,29 @@ I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/
 </li>
 <ul><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</ul>
 <img alt="Coming Soon" src="https://img.shields.io/badge/Coming-Soon-purple?style=for-the-badge&logo=Skeleton">
+
+<div class="ntfy-box">
+  <h4>Send me a push notification!</h4>
+  <textarea id="ntfy-input" placeholder="Type a message"></textarea>
+  <button onclick="javascript:sendNotification()" style="margin-left:10px;">Send</button>
+</div>
+
+<script>
+  // stolen ntfy script
+  function send(message) {
+    let r = new XMLHttpRequest()
+    r.open("POST", "https://ntfy.sh/coalaverdegithubio", true)
+    r.setRequestHeader("Content-Type", "text/plain")
+    r.send(message)
+  }
+  // send notification
+  let ntfyInput = document.getElementById("ntfy-input")
+  function sendNotification() {
+    if (ntfyInput.value.length <= 0) return
+    send(ntfyInput.value)
+    ntfyInput.value = ""
+  }
+</script>
 <hr>
 <p style="display: inline flow-root; float: left;">Copywrong • 2026</p>
 <p style="display: inline flow-root; float: right; text-align: right;"><a href="https://github.com/CoalaVerde/coalaverde.github.io"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CoalaVerde/coalaverde.github.io?logo=github"></a></p>
