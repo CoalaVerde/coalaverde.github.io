@@ -68,6 +68,16 @@ button:hover {
   border:1px solid #527f0e;
   box-shadow:inset 0px 1px 1px rgba(0,0,0,0.2),0px 1px 0px transparent
 }
+textarea {
+  color: #fff;
+  padding:8px 15px;
+  background:#191919;
+  border-radius:2px;
+  border:1px solid #121212;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
+  overflow:auto;
+  overflow-y:hidden
+}
 </style>
 <p>
 <a float="left" href="https://codeberg.org/Kurt.Cobain" target="_blank">
@@ -90,10 +100,10 @@ I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/
 <ul><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</ul>
 <img alt="Coming Soon" src="https://img.shields.io/badge/Coming-Soon-purple?style=for-the-badge&logo=Skeleton">
 
+### Send me a push notification!
 <div class="ntfy-box">
-  <h4>Send me a push notification!</h4>
-  <textarea id="ntfy-input" placeholder="Type a message"></textarea>
-  <button onclick="javascript:sendNotification()" style="margin-left:10px;">Send</button>
+  <textarea rows="3" cols="50" style="margin-bottom: 10px" id="ntfy-input" placeholder="Type a message"></textarea>
+  <button onclick="javascript:sendNotification()" style="margin-left:10px; margin-bottom: 10px">Send</button>
 </div>
 
 <script>
@@ -113,5 +123,7 @@ I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/
   }
 </script>
 <hr>
+<footer>
 <p style="display: inline flow-root; float: left;">Copywrong • 2026</p>
 <p style="display: inline flow-root; float: right; text-align: right;"><a href="https://github.com/CoalaVerde/coalaverde.github.io"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CoalaVerde/coalaverde.github.io?logo=github"></a></p>
+</footer>
