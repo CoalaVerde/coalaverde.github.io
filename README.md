@@ -3,19 +3,16 @@
 <style>
 a {
   display:inline flow-root;
-  }
+}
 a.dfn-hover {
 	color: #333;
 	text-decoration: none;
 }
 dfn {
-  background: #e9e9e9;
   border-bottom: dashed 1px rgba(0,0,0,0.8);
   padding: 0 0.4em;
-  cursor: help;
   font-style: normal;
   position: relative;
-  
 }
 dfn::after {
   content: attr(data-info);
@@ -35,7 +32,7 @@ dfn::after {
 	white-space: pre-wrap;
 }
 dfn::before {
-  content: '';
+/*  content: '';
   display: block;
   position: absolute;
   top: 12px; left: 20px;
@@ -44,7 +41,7 @@ dfn::before {
   border: solid transparent 5px;
   border-bottom-color: rgba(0,0,0,0.8);
   transition: opacity 250ms, top 250ms;
-}
+}*/
 dfn:hover {z-index: 2;} /* Keeps the info boxes on top of other elements */
 dfn:hover::after,
 dfn:hover::before {opacity: 1;}
