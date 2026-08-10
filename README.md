@@ -11,8 +11,8 @@ a.dfn-hover {
 dfn {
   border-bottom: dashed 1px rgba(0,0,0,0.8);
   padding: 0 0.4em;
+  font-style: normal;
   position: relative;
-  
 }
 dfn::after {
   content: attr(data-info);
