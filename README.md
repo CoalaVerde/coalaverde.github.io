@@ -77,6 +77,36 @@ textarea {
   box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
   overflow:auto;
   overflow-y:hidden
+
+.spinning-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* The spinning dashed border layer */
+.spinning-circle::before {
+  content: '';
+  position: absolute;
+  inset: -8px; /* Expands the border outward */
+  border: 4px dashed #fff;
+  border-radius: 50%;
+  animation: spin 8s linear infinite;
+}
+
+/* Rotation keyframes */
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 }
 </style>
 <p>
@@ -84,7 +114,7 @@ textarea {
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
-<img alt="A kitten running from two creepers on a bright grass field" src="/tinyavatar.jpg" style="shape-outside: circle(); shape-margin: 1em; margin-right: 1em ; float: left; border-radius: 50%; max-width: 50%; outline: dashed white 2px; padding: 2px">
+<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" class="spinning-circle" style="shape-outside: circle(); shape-margin: 1em; margin-right: 1em ; float: left; border-radius: 50%; max-width: 45%; outline: dashed white 2px; padding: 2px">
 Hi there, this is my website :-).
 
 I like embedded/retro/experimental systems and ways to work around its limitations. I also like <dfn data-info="See for example Plan 9 from Bell Labs"><a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed</a></dfn> and <dfn data-info="See for example the SDF pubnix and tildeverse.org"><a href="https://en.wikipedia.org/wiki/Shell_account">shared computing</a></dfn>.
