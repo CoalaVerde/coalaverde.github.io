@@ -114,7 +114,9 @@ textarea {
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
+<div class="spinning-circle"
 <img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" class="spinning-circle" style="shape-outside: circle(); shape-margin: 1em; margin-right: 1em ; float: left; border-radius: 50%; max-width: 45%; outline: dashed white 2px; padding: 2px">
+</div>
 Hi there, this is my website :-).
 
 I like embedded/retro/experimental systems and ways to work around its limitations. I also like <dfn data-info="See for example Plan 9 from Bell Labs"><a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed</a></dfn> and <dfn data-info="See for example the SDF pubnix and tildeverse.org"><a href="https://en.wikipedia.org/wiki/Shell_account">shared computing</a></dfn>.
