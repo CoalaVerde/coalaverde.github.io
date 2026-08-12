@@ -115,6 +115,10 @@ textarea {
   }
 }
 
+footer {
+  max-width: 100%;
+  color: #333333;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 </style>
 <p>
