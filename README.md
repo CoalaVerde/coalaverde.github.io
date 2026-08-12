@@ -86,17 +86,26 @@ textarea {
   float: left;
   shape-outside: circle(50%);
   shape-margin: 0.5em;
-  box-shadow: inset 0px 10px 5px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 15px rgba(0,0,0,0.5);
 }
 
 /* The spinning dashed border layer */
 .spinning-circle::before {
   content: '';
   position: absolute;
-  inset: -8px; /* Expands the border outward */
-  border: 4px dashed #fff;
+  inset: -4px; /* Expands the border outward */
+  border: 8px dashed #91bc1f;
   border-radius: 50%;
   animation: spin 30s linear infinite;
+}
+
+.spinning-circle::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border: 6px solid rgba(0,0,0,0.5);
+  border-radius:50%;
+
 }
 
 /* Rotation keyframes */
@@ -114,7 +123,7 @@ textarea {
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
 <div class="spinning-circle" style="margin-right: 1em; max-width:30%;">
-<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" style="outline: 4px dashed white">
+<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" style="outline:4px solid white;border-radius: 50%;">
 </div>
 Hi there, this is my website :-).
 
@@ -125,10 +134,13 @@ This is my first time using Jekyll and Github Pages, thus this is right now just
 I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag-us.svg" width="20px"> <sup>(B1/B2)</sup> and _Spanish_ <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag-es.svg" width="20px"> <sup>(Native)</sup>. Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg" width="20px"> and learning _Python_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" width="20px">
 
 ## Projects
+<ul>
 <li><a href="https://github.com/CoalaVerde/Marble-Appimage" target="_blank">
   <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-blue?style=plastic&link=https%3A%2F%2Fgithub.com%2FCoalaVerde%2FMarble-Appimage"></a>
 </li>
-<ul><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</ul>
+<ul>
+<li><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</li></ul>
+</ul>
 <img alt="Coming Soon" src="https://img.shields.io/badge/Coming-Soon-purple?style=for-the-badge&logo=Skeleton">
 
 ### Send me a push notification!
