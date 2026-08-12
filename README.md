@@ -1,3 +1,7 @@
+---
+layout: default
+title: Test
+---
 # coalaverde.github.io
 
 <style>
@@ -9,8 +13,6 @@ a.dfn-hover {
 	text-decoration: none;
 }
 dfn {
-  border-bottom: dashed 1px rgba(0,0,0,0.8);
-  padding: 0 0.4em;
   font-style: normal;
   position: relative;
 }
@@ -38,8 +40,6 @@ dfn::before {
   top: 12px; left: 20px;
   opacity: 0;
   width: 0; height: 0;
-  border: solid transparent 5px;
-  border-bottom-color: rgba(0,0,0,0.8);
   transition: opacity 250ms, top 250ms;
 }
 dfn:hover {z-index: 2;} /* Keeps the info boxes on top of other elements */
@@ -77,17 +77,16 @@ textarea {
   box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
   overflow:auto;
   overflow-y:hidden
+}
 
 .spinning-circle {
   position: relative;
-  width: 120px;
-  height: 120px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #222;
-  color: #fff;
   border-radius: 50%;
+  float: left;
+  shape-outside: circle(50%);
+  shape-margin: 0.5em;
+  box-shadow: inset 0px 10px 5px rgba(0,0,0,0.5);
 }
 
 /* The spinning dashed border layer */
@@ -97,7 +96,7 @@ textarea {
   inset: -8px; /* Expands the border outward */
   border: 4px dashed #fff;
   border-radius: 50%;
-  animation: spin 8s linear infinite;
+  animation: spin 30s linear infinite;
 }
 
 /* Rotation keyframes */
@@ -114,8 +113,8 @@ textarea {
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
-<div class="spinning-circle">
-<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" class="spinning-circle" style="shape-outside: circle(); shape-margin: 1em; margin-right: 1em ; float: left; border-radius: 50%; max-width: 45%; outline: dashed white 2px; padding: 2px">
+<div class="spinning-circle" style="margin-right: 1em; max-width:30%;">
+<img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" style="outline: 4px dashed white">
 </div>
 Hi there, this is my website :-).
 
