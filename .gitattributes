@@ -1,2 +1,2 @@
 # This is for github pushing
-config.json filter=jekyll-header
+README.md filter=jekyll-header
