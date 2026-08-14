@@ -80,7 +80,7 @@ footer {
 </style>
 <p>
 <a float="left" href="https://codeberg.org/Kurt.Cobain" target="_blank">
-  <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
+  <img src="https://img.shields.io/badge/Codeberg-Follow_me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
 <a float="right" href="https://github.com/CoalaVerde" target="_blank"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
 <div class="spinning-circle" style="margin-right: 1em; max-width:30%;">
