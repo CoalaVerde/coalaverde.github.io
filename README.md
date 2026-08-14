@@ -81,14 +81,14 @@ footer {
 <p>
 <a float="left" href="https://codeberg.org/Kurt.Cobain" target="_blank">
   <img src="https://img.shields.io/badge/Codeberg-Follow me-dodgerblue?style=social&logo=codeberg" alt="Codeberg - Kurt.Cobain"></a>
-<a float="right" href="https://github.com/CoalaVerde"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
+<a float="right" href="https://github.com/CoalaVerde" target="_blank"><img alt="GitHub followers" src="https://img.shields.io/github/followers/CoalaVerde"></a>
 </p>
 <div class="spinning-circle" style="margin-right: 1em; max-width:30%;">
 <img alt="A kitten running from two creepers on a bright grass field" src="/avatar.png" style="outline-offset: -6px;outline:10px solid white;border-radius: 50%;">
 </div>
 Hi there, this is my website :-).
 
-I like embedded/retro/experimental systems and ways to work around its limitations. I also like <a title="Like Plan9" href="https://en.wikipedia.org/wiki/Distributed_computing">distributed</a> and <a title="Like those old DECs in the 70s" href="https://en.wikipedia.org/wiki/Shell_account">shared computing</a>.
+I like embedded/retro/experimental systems and ways to work around its limitations. I also like <a title="Like Plan9" href="https://en.wikipedia.org/wiki/Distributed_computing" target="_blank">distributed</a> and <a title="Like those old DECs in the 70s" href="https://en.wikipedia.org/wiki/Shell_account" target="_blank">shared computing</a>.
 
 This is my first time using Jekyll and Github Pages, thus this is right now just a placeholder and I will improve it later.
 
@@ -131,5 +131,5 @@ Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons
 <hr>
 <footer>
 <p style="display: inline flow-root; float: left;">Copywrong • 2026</p>
-<p style="display: inline flow-root; float: right; text-align: right;"><a href="https://github.com/CoalaVerde/coalaverde.github.io"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CoalaVerde/coalaverde.github.io?logo=github"></a></p>
+<p style="display: inline flow-root; float: right; text-align: right;"><a href="https://github.com/CoalaVerde/coalaverde.github.io" target="_blank"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CoalaVerde/coalaverde.github.io?logo=github"></a></p>
 </footer>
