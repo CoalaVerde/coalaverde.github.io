@@ -103,6 +103,12 @@ Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons
 </li>
 <ul>
 <li><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</li></ul>
+
+<li><a href="https://codeberg.org/Kurt.Cobain/letterwhere" target="_blank">
+<img src="https://img.shields.io/badge/Letterwhere-Wordle_cheater-purple?style=plastic&logo=Python&logoColor=yellow"></a>
+</li>
+<ul>
+<li><strong>HELPS YOU CHEAT IN WORDLE...</strong> Very illegal.</li></ul>
 </ul>
 <img alt="Coming Soon" src="https://img.shields.io/badge/Coming-Soon-purple?style=for-the-badge&logo=Skeleton">
 
