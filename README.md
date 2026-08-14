@@ -28,8 +28,6 @@ textarea {
   border-radius:2px;
   border:1px solid #121212;
   box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
-  overflow:auto;
-  overflow-y:hidden
 }
 
 .spinning-circle {
@@ -40,6 +38,7 @@ textarea {
   shape-outside: circle(50%);
   shape-margin: 0.5em;
   box-shadow: 0px 0px 10px 15px rgba(0,0,0,0.5);
+  transition: transform 0.25s;
 }
 
 /* The spinning dashed border layer */
@@ -59,10 +58,15 @@ textarea {
   border: 5px solid rgba(0,0,0,0.5);
   border-radius:50%;
   box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.4);
+  transition: inset 0.25s;
 }
 
 .spinning-circle:hover::after {
   inset: -2px;
+}
+
+.spinning-circle:hover {
+  transform: scale(1.1);
 }
 
 /* Rotation keyframes */
@@ -76,6 +80,21 @@ footer {
   max-width: 100%;
   color: #333333;
   text-shadow: 0px -1px rgba(255, 255, 255, 0.3);
+}
+
+li img {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  padding: 1px;
+  transition:
+    transform 0.25s ease-in-out,
+    border-radius 0.15s ;
+
+}
+li img:hover {
+  border-radius: 0%;
+  transform:
+  scale(1.05);
 }
 </style>
 <p>
@@ -92,25 +111,26 @@ I like embedded/retro/experimental systems and ways to work around its limitatio
 
 This is my first time using Jekyll and Github Pages, thus this is right now just a placeholder and I will improve it later.
 
-I speak _English_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag-us.svg" width="20px"> <sup>(B1/B2)</sup> and _Spanish_ <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag-es.svg" width="20px"> <sup>(Native)</sup>.
+I speak <img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-B1%2FB2-gray?labelColor=8a2be2
+"> and I am a <img src="https://img.shields.io/badge/%F0%9F%87%AA%F0%9F%87%B8_Spanish-Native_Speaker-gray?labelColor=8a2be2">, and for that reason I can comprehend 50% of <img src="https://img.shields.io/badge/%F0%9F%87%B5%F0%9F%87%B9_Portuguese-DFE22B">.
 
-Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Utilities-terminal.svg" width="20px"> and learning _Python_ <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" width="20px">
+Mildly fluent at <img src="https://img.shields.io/badge/Bash-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white"> and learning <img src="https://img.shields.io/badge/Python-%233670A0.svg?style=flat&logo=python&logoColor=ffdd54">.
 
 ## Projects
 <ul>
 <li><a href="https://github.com/CoalaVerde/Marble-Appimage" target="_blank">
-  <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-blue?style=plastic&logo=AppImage&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-ffcc00?style=for-the-badge&logo=AppImage&logoColor=white&labelColor=191919"></a>
 </li>
 <ul>
 <li><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</li></ul>
 
 <li><a href="https://codeberg.org/Kurt.Cobain/letterwhere" target="_blank">
-<img src="https://img.shields.io/badge/Letterwhere-Wordle_cheater-purple?style=plastic&logo=Python&logoColor=yellow"></a>
+<img src="https://img.shields.io/badge/Letterwhere-Python_Script-ffcc00?style=for-the-badge&logo=Python&logoColor=white&labelColor=191919"></a>
 </li>
 <ul>
 <li><strong>HELPS YOU CHEAT IN WORDLE...</strong> Very illegal.</li></ul>
 </ul>
-<img alt="Coming Soon" src="https://img.shields.io/badge/Coming-Soon-purple?style=for-the-badge&logo=Skeleton">
+<img alt="Coming Soon" width="50%" style="background-color:#000;padding:1px" src="https://img.shields.io/badge/Coming-Soon-191919?style=for-the-badge&logo=Skeleton&logoColor=white&labelColor=121212">
 
 ### Send me a push notification!
 <div class="ntfy-box">
