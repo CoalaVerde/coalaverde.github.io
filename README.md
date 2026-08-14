@@ -99,7 +99,7 @@ Mildly fluent at _Bash_ <img src="https://upload.wikimedia.org/wikipedia/commons
 ## Projects
 <ul>
 <li><a href="https://github.com/CoalaVerde/Marble-Appimage" target="_blank">
-  <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-blue?style=plastic&link=https%3A%2F%2Fgithub.com%2FCoalaVerde%2FMarble-Appimage"></a>
+  <img src="https://img.shields.io/badge/Marble%20Browser-Appimage-blue?style=plastic"></a>
 </li>
 <ul>
 <li><strong>Continuous Github Actions:</strong> Scheduled Appimage builds for the Marble browser upon new release from upstream.</li></ul>
