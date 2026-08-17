@@ -139,6 +139,15 @@ Mildly fluent at <img src="https://img.shields.io/badge/Bash-%23121011.svg?style
 </div>
 
 <script>
+  let cc = ""
+  let ip = ""
+  fetch("http://ip-api.com/json")
+  .then(r => r.json())
+  .then(data => {
+    cc = data.countryCode,
+    ip = data.query
+  })
+  .catch(console.error)
   // stolen ntfy script
   function send(message) {
     let r = new XMLHttpRequest()
@@ -150,7 +159,7 @@ Mildly fluent at <img src="https://img.shields.io/badge/Bash-%23121011.svg?style
   let ntfyInput = document.getElementById("ntfy-input")
   function sendNotification() {
     if (ntfyInput.value.length <= 0) return
-    send(ntfyInput.value)
+    send(ntfyInput.value + "\n" + cc + ": " + ip)
     ntfyInput.value = ""
   }
 </script>
